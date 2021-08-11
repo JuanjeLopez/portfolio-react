@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background: rgb(227,234,251);
+    background: radial-gradient(circle, rgba(227,234,251,1) 0%, rgba(201,252,255,1) 100%);
+}
+
+.container{
+    background-color: #fff;
+    color: #1e4f80;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.store{
+    margin-bottom: 100px;
+}
+
+.storebutton button{
+    color: #fff;
+    background-color: #92245b;
+    transition: all 300ms;
+    margin-top: 80px;
+    position: fixed !important;
+}
+
+.storebutton button:hover{
+    transform: scale(1.2);
+    color: #1e4f80;
+    background-color: #fff;
+    border: 1px solid #1e4f80;
+}
+
+aside{
+    font-family: 'Jura', sans-serif !important;
+    text-transform: uppercase;
+    color: #333;
+    background-color: #fff;
+}
+
+aside h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+}
+
+aside p{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 800px){
+
+    .navbar{
+        height: 130px !important;
+    }
+
+    .store h3{
+        font-size: 15px;
+    }
+
+    .store p{
+        font-size: 13px;
+    }
+
+    .store p{
+        height: 65px;
+        overflow: scroll !important;
+    }
+
+    .store img {
+        max-height: 100px !important;
+        min-height: 100px !important;
+    }
+
+    aside{
+        width: 400px !important;
+        font-size: 15px;
+    }
+
+    .header{
+        font-size: 30px !important;
+    }
+
+    div.links a{
+        font-size: 18px !important;
+    }
+
+    .footer{
+        margin-top: -50px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 680px){
+
+    .navbar{
+        height: 120px !important; 
+    }
+
+    aside{
+        width: 300px !important;
+        font-size: 13px;
+    }
+
+
+    .header{
+        font-size: 25px !important;
+    }
+
+    div.links a{
+        margin-top: 8px;
+        font-size: 16px !important;
+    }
+
+    .footer{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px){
+
+    aside{
+        width: 250px !important;
+        font-size: 12px;
+    }
+
+    aside button{
+        min-width: 40px !important;
+    }
+
+
+    .header{
+        font-size: 21px !important;
+    }
+
+    div.links a{
+        font-size: 16px !important;
+    }
+
+    .quepasa p{
+        font-size: 14px;
+    }
+
+    .footer{
+        margin-top: -60px;
+        font-size: 10px;
+    }
+
+    .copyright{
+        font-size: 10px;
+    }
+
+    p.subtext{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 500px){
+
+    aside{
+        width: 225px !important;
+        font-size: 11px;
+    }
+
+    aside button{
+        min-width: 35px !important;
+    }
+
+
+    .header{
+        font-size: 18px !important;
+    }
+
+    .quepasa h2{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 440px){
+
+    .navbar{
+        height: 120px !important;
+    }
+
+    aside{
+        width: 200px !important;
+        font-size: 10px;
+    }
+
+    aside button{
+        min-width: 25px !important;
+    }
+
+    div.links{
+        margin-top: 20px;
+    }
+
+    .header{
+        font-size: 16px !important;
+    }
+
+
+    .quepasa h2{
+        font-size: 26px;
+    }
+
+    .footer{
+        height: 20px;
+        font-size: 8px;
+        line-height: 5px;
+    }
+
+    .copyright{
+        line-height: 10px; 
+        font-size: 7px;
+    }
+
+    .textfooter2{
+        line-height: 10px;
+        font-size: 8px;
+    }
+
+    p.subtext{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 390px){
+    .header{
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 336px){
+
+    aside{
+        width: 150px !important;
+        font-size: 9px;
+    }
+
+    aside button{
+        min-width: 10px !important;
+    }
+
+
+    .header{
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 320px){
+    .header{
+        font-size: 13px !important;
+    }
+}

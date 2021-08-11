@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+
+
+
+
+:root {
+    --primary: #1e4f80;
+    --secondary: rgb(65, 141, 128);
+    --shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.quepasa{    
+    width: 95%;
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 52px; 
+    background-color: var(--secondary);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: var(--shadow);
+    padding-bottom: 20px;
+    justify-items: center;
+}
+
+.quepasa h2{
+    background-color: var(--secondary);
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 50px;
+}
+
+.quepasa p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+.list{
+    padding: 10px !important;
+    list-style: none;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.last{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
