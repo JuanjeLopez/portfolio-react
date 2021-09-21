@@ -5,32 +5,25 @@ const Home = () => {
     return(
     <div className='quepasa'>            
         <h2>
-            ¿Qué está pasando?
+            ENTREVISTA TÉCNICA REACT
         </h2>
         <p>
-            Que estás viendo una página web hecha con React, donde hay dos
-            partes principales: esta que ves, explicativa, y otra que emula
-            una tienda online.
-        </p>
-        <p>
-            ¿Por qué hacer una tienda? Por tres razones principales:
-        </p>
-        <p className='list'>    
-            · Los productos, descripciones y precios se están cogiendo de una API REST.
-        </p>
-        <p className='list'>
-            · Se han reutilizado componentes, una de las mayores ventajas de REACT.
-        </p>
-        <p className='list'>
-            · Las tiendas online son de las aplicaciones más demandadas en la actualidad.
-        </p>
-        <p>
-            Por todas estas razones me decanté por iniciar este proyecto (realizado en base a un tutorial de FreeCodeCamp).
-            Porque me ha permitido desarrollar las técnicas comerciales más usadas, además de ahondar en la comprensión
-            de este potente framework que, seamos sinceros, se está comiendo el mercado. 
+            · Crear una aplicación web que funcione como una tienda.
+            <br></br>
+            <br></br>
+            · Alimentar la tienda con datos de una API REST.
+            <br></br>
+            <br></br>
+            · Hacer un icono de carrito que se actualice con el número de productos añadidos.
+            <br></br>
+            <br></br>
+            · Mostrar en un sidebar desplegable el contenido del carrito.
+            <br></br>
+            <br></br>
+            · Hacer botones de añadir o elminiar cantidades y mostrar el total del carrito.
         </p>
         <p className='last'>
-            ¿Qué mejor manera de mostrar soltura y conocimientos que con un proyecto "real"?
+            Este proyecto me ayudó a mejorar la implantación de los aspectos visuales vistosos, como el sidebar desplegable, además de gestionar la información de una API REST.
         </p>  
     </div>           
     )
